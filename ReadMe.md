@@ -19,7 +19,7 @@
 * _Return the age of a human in Venus years. (A Venus year is .62 Earth years.)_
 * _Return the age of a human in Mars years. (A Mars year is 1.88 Earth years.)_
 * _Return the age of a human in Jupiter years. (A Jupiter year is 11.86 Earth years.)_
-* _Determine how many years a user has left to live on each planet… _
+* _Determine how many years a user has left to live on each planet…_
 
 
 ## Known Bugs
