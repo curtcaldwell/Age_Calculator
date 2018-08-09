@@ -9,4 +9,14 @@ export class AgeCalc {
   ageMercury(){
     this.age = this.age / .24;
   }
+  ageVenus(){
+    this.age = this.age / .62;
+  }
+  ageMars(){
+    this.age = this.age / 1.88;
+  }
+  ageJupiter(){
+    this.age = this.age / 11.86;
+  }
+
 }
