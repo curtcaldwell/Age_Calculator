@@ -1,4 +1,5 @@
 import { AgeCalc } from './../src/ageCalc.js'
+const averageAge = 85;
 
 describe('AgeCalc', function () {
   it('should cound seconds from date until todats date', function() {
@@ -32,5 +33,8 @@ describe('AgeCalc', function () {
     let lastYear = new Date(2017, 8, 9, 10, 10, 10);
     expect(newage.differenceDates(today, lastYear)).toEqual(31536000);
   });
-
-})
+  it('should return users years left on Mercury', function() {
+    let newage = new AgeCalc(28);
+    expect(newage.yearsLeftMercury(averageAge)).toEqual(237.5);
+  });
+  })
