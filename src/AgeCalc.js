@@ -21,17 +21,17 @@ export class AgeCalc {
   differenceDates(now, then){
    return(now - then)/1000;
   }
-  yearsLeftMercury(averageCan){
-   return (averageCan - this.age)/.24;
+  yearsLeftMercury(average){
+   return (average - this.age)/.24;
   }
-  yearsLeftVenus(averageCan){
-   return (averageCan - this.age)/.62;
+  yearsLeftVenus(average){
+   return (average - this.age)/.62;
   }
-  yearsLeftMars(averageCan){
-   return (averageCan - this.age)/1.88;
+  yearsLeftMars(average){
+   return (average - this.age)/1.88;
   }
-  yearsLeftJupiter(averageCan){
-   return (averageCan - this.age)/11.86;
+  yearsLeftJupiter(average){
+   return (average - this.age)/11.86;
   }
   yearsPast(avg){
    return (this.age - avg);
