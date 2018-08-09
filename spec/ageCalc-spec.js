@@ -37,4 +37,21 @@ describe('AgeCalc', function () {
     let newage = new AgeCalc(28);
     expect(newage.yearsLeftMercury(averageAge)).toEqual(237.5);
   });
-  })
+  it('should return users years left on Venus', function() {
+    let newage = new AgeCalc(28);
+    expect(newage.yearsLeftVenus(averageAge)).toEqual(91.93548387096774);
+  });
+  it('should return users years left on Mars', function() {
+    let newage = new AgeCalc(28);
+    expect(newage.yearsLeftMars(averageAge)).toEqual(30.319148936170215);
+  });
+  it('should return users years left on Jupiter', function() {
+    let newage = new AgeCalc(28);
+    expect(newage.yearsLeftJupiter(averageAge)).toEqual(4.8060708263069145);
+  });
+  it('should return many years to user has left', function() {
+    let newage = new AgeCalc(28);
+    expect(newage.yearsPast(averageAge)).toEqual(-57);
+  });
+
+})
