@@ -42,4 +42,4 @@ _Contact Curt.Caldwell24@gmail.com_
 
 *This project is distributed under the MIT License*
 
-Copyright (c) 2016 **_Curt Caldwell_**
+Copyright (c) 2018 **_Curt Caldwell_**
