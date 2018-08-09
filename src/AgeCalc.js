@@ -18,5 +18,22 @@ export class AgeCalc {
   ageJupiter(){
     this.age = this.age / 11.86;
   }
-
-}
+  differenceDates(now, then){
+   return(now - then)/1000;
+  }
+  yearsLeftMercury(averageCan){
+   return (averageCan - this.age)/.24;
+  }
+  yearsLeftVenus(averageCan){
+   return (averageCan - this.age)/.62;
+  }
+  yearsLeftMars(averageCan){
+   return (averageCan - this.age)/1.88;
+  }
+  yearsLeftJupiter(averageCan){
+   return (averageCan - this.age)/11.86;
+  }
+  yearsPast(avg){
+   return (this.age - avg);
+    }
+  }
