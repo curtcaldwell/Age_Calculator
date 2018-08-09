@@ -16,4 +16,9 @@ describe('AgeCalc', function () {
     newage.ageVenus();
     expect(45.16129032258065).toEqual(newage.age);
   });
+  it('should return users age on Mars', function() {
+    let newage = new AgeCalc(28);
+    newage.ageVenus();
+    expect(45.16129032258065).toEqual(newage.age);
+  });
 })
