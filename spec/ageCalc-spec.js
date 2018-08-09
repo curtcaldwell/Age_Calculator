@@ -21,4 +21,9 @@ describe('AgeCalc', function () {
     newage.ageVenus();
     expect(45.16129032258065).toEqual(newage.age);
   });
+  it('should return users age on Jupiter', function() {
+    let newage = new AgeCalc(28);
+    newage.ageJupiter();
+    expect(2.3608768971332212).toEqual(newage.age);
+  });
 })
